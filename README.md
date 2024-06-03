@@ -8,13 +8,15 @@ Directory Structure
     /floyds_algorithm
         __init__.py
         recursive_floyd.py
+        iterative_floyd.py
     test_floyd.py
     requirements.txt
     README.md
 
 Files Overview
 
-floyds_algorithm/recursive_floyd.py: Houses the recursive implementation of the Floyd-Warshall algorithm.
+floyds_algorithm/recursive_floyd.py: Contains the recursive implementation.
+floyds_algorithm/iterative_floyd.py: Contains the iterative implementation.
 test_floyd.py: Contains unit tests for verifying the Floyd-Warshall implementation.
 requirements.txt: Lists the required dependencies to run this project.
 README.md: Offers an overview of the project, including setup and usage instructions.
