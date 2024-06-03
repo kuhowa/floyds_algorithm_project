@@ -12,6 +12,6 @@ def floyd_warshall_recursive(dist, k, n):
 
 def prepare_distance_matrix(graph):
     n = len(graph)
-    dist = [row[:] for row in graph]  # Make a deep copy of the graph as a distance matrix
+    dist = [row[:] for row in graph]  
     floyd_warshall_recursive(dist, 0, n)
     return dist
